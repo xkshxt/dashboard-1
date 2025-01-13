@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a responsive and interactive dashboard built using Tailwind CSS and JavaScript. The dashboard includes key features such as a search bar, notifications, user profile, and a heatmap visualization for displaying data. The layout is modern, user-friendly, and fully customizable.
+This project is a responsive and interactive dashboard built using Tailwind CSS. The dashboard includes key features such as a search bar, notifications, user profile, and a heatmap visualization for displaying data. The layout is modern, user-friendly, and fully customizable.
 
 ---
 
