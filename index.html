@@ -910,19 +910,24 @@
             <!-- Orders and Want More Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div class="p-4 bg-gray-100 shadow rounded-xl">
-                <h3 class="text-lg font-bold mb-4">Orders</h3>
+                <div class="flex justify-between items-center mb-4">
+                  <h3 class="text-lg font-bold">Orders</h3>
+                  <!-- Add the row of small boxes to the right -->
+                  <div class="flex items-center">
+                    <span class="text-sm text-gray-600 mr-2">0</span>
+                    <!-- Small Boxes -->
+                    <div class="flex gap-1">
+                      <div class="w-3 h-3 bg-pink-200 rounded"></div>
+                      <div class="w-3 h-3 bg-pink-300 rounded"></div>
+                      <div class="w-3 h-3 bg-pink-400 rounded"></div>
+                      <div class="w-3 h-3 bg-pink-500 rounded"></div>
+                      <div class="w-3 h-3 bg-pink-600 rounded"></div>
+                    </div>
+                    <span class="text-sm text-gray-600 ml-2">100</span>
+                  </div>
+                </div>
                 <!-- Heatmap Container -->
                 <div class="grid grid-cols-7 gap-1 text-gray-500">
-                  <!-- Time Slot Labels (Top Row) -->
-                  <div class="text-center font-semibold"></div>
-                  <!-- Empty cell for top-left corner -->
-
-                  <div class="text-center font-semibold">00</div>
-                  <div class="text-center font-semibold">06</div>
-                  <div class="text-center font-semibold">12</div>
-                  <div class="text-center font-semibold">18</div>
-                  <div class="text-center font-semibold">20</div>
-                  <div class="text-center font-semibold">24</div>
                   <!-- Platform Rows -->
                   <div class="flex items-center justify-center mr-3">
                     Facebook
@@ -969,6 +974,15 @@
                   <div class="w-12 h-12 bg-pink-100 rounded-lg"></div>
                   <div class="w-12 h-12 bg-pink-500 rounded-lg"></div>
                   <div class="w-12 h-12 bg-pink-200 rounded-lg"></div>
+                  <!-- Time Slot Labels (Top Row) -->
+                  <div class="text-center font-semibold"></div>
+                  <!-- Empty cell for top-left corner -->
+                  <div class="text-center font-semibold">00</div>
+                  <div class="text-center font-semibold">06</div>
+                  <div class="text-center font-semibold">12</div>
+                  <div class="text-center font-semibold">18</div>
+                  <div class="text-center font-semibold">20</div>
+                  <div class="text-center font-semibold">24</div>
                 </div>
               </div>
               <div class="p-4 bg-gray-100 shadow rounded">
